@@ -1,5 +1,10 @@
 :var {
-    --gold(--#D1A954);
-    --black(#333333);
-    
+    --white:#FFFFFF;
+    --gold:#D1A954;
+    --black:#333333;
+    --sans-bold: "OpenSans-Bold", sans-serif;
+    --sans-regular:"OpenSans-Regular", sans-serif;
+    --openSans-bold:"OpenSansCondensed-Bold", sans-serif;
+    --openSans-light:"OpenSansCondensed-Light",sans-serif;
+
 }
