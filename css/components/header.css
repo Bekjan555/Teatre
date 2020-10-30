@@ -1,0 +1,33 @@
+.nav__menu {
+    margin-top: 50px;
+}
+
+.nav__item {
+    margin-right: 63px;
+    position: relative;
+}
+
+.nav__menu::last-child {
+    margin-left: 100px;
+}
+
+.nav__links {
+    font-size: 18px;
+    font-family: var(--openSans-bold);
+    transition: 0.3s;
+}
+
+.nav__links:before{
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: var(--gold);
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
+}
+
+.nav__links:hover::before {
+    width: 100%;
+}

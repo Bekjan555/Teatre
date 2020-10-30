@@ -1,6 +1,6 @@
 .container {
     max-width: 1110px;
-    margin: auto;
+    margin: 0 auto;
 }
 .row{
     display: flex;
@@ -21,4 +21,13 @@
 .title {
     font-size: 48px;
     font-family: serif;
+    text-transform: uppercase;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.margin-top {
+    margin-top: 150px;
 }
