@@ -1,4 +1,4 @@
-.nav__menu {
+.nav__menu:nth-last-child(none) {
     margin-top: 50px;
 }
 
@@ -6,10 +6,10 @@
     margin-right: 63px;
     position: relative;
 }
-
-.nav__menu::last-child {
-    margin-left: 100px;
-}
+/* 
+.nav__menu:nth-last-child(none) {
+    margin: 0;
+} */
 
 .nav__links {
     font-size: 18px;

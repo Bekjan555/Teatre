@@ -31,3 +31,8 @@
 .margin-top {
     margin-top: 150px;
 }
+
+.description {
+    font-size: 14px;
+    font-family: var(--openSans-regular);
+}
