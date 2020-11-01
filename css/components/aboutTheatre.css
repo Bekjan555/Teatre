@@ -1,0 +1,17 @@
+.theatre__title {
+    font-family: var(--openSans-light);
+    color: white;
+    letter-spacing: 0.1em;
+}
+
+.theatre__subtitle {
+    color: white;
+    letter-spacing: 10%;
+    font-family: var(--openSans-bold);
+}
+
+
+.theatre__description {
+    font-family: var(--sans-regular);
+    color: white;
+}
