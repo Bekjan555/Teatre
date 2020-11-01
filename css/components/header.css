@@ -2,6 +2,11 @@
     margin-top: 50px;
 }
 
+.nav__menu:nth-child(6){
+    margin: 0;
+    background-color: green;
+}
+
 .nav__item {
     margin-right: 63px;
     position: relative;
