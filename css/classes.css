@@ -20,7 +20,7 @@
 
 .title {
     font-size: 48px;
-    font-family: serif;
+    font-family: var(--openSans-light);
     text-transform: uppercase;
 }
 
@@ -38,7 +38,7 @@
 
 .description {
     font-size: 14px;
-    font-family: var(--openSans-light);
+    font-family: var(--sans-regular);
 }
 
 .col-3 {
