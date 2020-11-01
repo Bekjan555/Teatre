@@ -35,7 +35,7 @@
     box-sizing: border-box;
 }
 
-.hero__button {
+.button {
     font-family: var(--openSans-bold);
     font-size: 18px;
     background: var(--gold);

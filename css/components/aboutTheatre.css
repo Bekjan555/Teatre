@@ -1,17 +1,44 @@
+.about__theatre {
+    margin-top: 300px;
+}
+
+.best__theater {
+    width: 445px;
+}
+
 .theatre__title {
     font-family: var(--openSans-light);
     color: white;
     letter-spacing: 0.1em;
+    font-weight: 300;
 }
 
 .theatre__subtitle {
     color: white;
-    letter-spacing: 10%;
     font-family: var(--openSans-bold);
+    font-size: 21px;
+    padding-bottom: 40px;
 }
-
 
 .theatre__description {
     font-family: var(--sans-regular);
     color: white;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.theatre__text {
+    font-size: 16px;
+    font-family: var(--openSans-bold);
+    padding: 10px 0;
+}
+
+.theatre__img {
+    background: url(/img/theater-img.png) no-repeat center;
+    background-size: cover;
+}
+
+.theatre__info {
+    padding-left: 40px;
+    box-sizing: border-box;
 }
