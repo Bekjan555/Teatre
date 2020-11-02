@@ -27,16 +27,32 @@
     transition: 0.3s;
 }
 
-
 .list__item:hover::before {
     display: inline;
     transition: 0.3s;
 }
 
+.text__top,
+.text__bot {
+    position: absolute;
+}
 
+.text__top {
+    font-size: 24px;
+    font-family: var(--openSans-bold);
+    font-weight: 700;
+    letter-spacing: 3px;
+    left: 40px;
+    top: 40px;
+}
 
-
-
-
+.text__bot {
+    writing-mode: tb;
+    transform: rotate(180deg);
+    font-family: var(--openSans-bold);
+    font-size: 18px;
+    left: 40px;
+    bottom: 40px;
+}
 
 

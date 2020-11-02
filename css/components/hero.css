@@ -95,6 +95,7 @@
 
 .box__right {
     position: relative;
+    z-index: 1;
 }
 
 .box__img {
@@ -104,7 +105,7 @@
 .box__img2 {
     position: absolute;
     right: -20px;
-    bottom: -20px;
+    bottom: 20px;
     z-index: -1;
 }
 
