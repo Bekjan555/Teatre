@@ -63,6 +63,7 @@
     color: white;
     width: 60%;
     transform: rotate(180deg);
+    padding-right: 35px;
 }
 
 .number-info::after {
@@ -70,8 +71,8 @@
     position: absolute;
     width: 3px;
     height: 80px;
-    left: 77%;
-    top: 117%;
+    left: 47%;
+    top: -60%;
     background: #c4c4c4;
 }
 

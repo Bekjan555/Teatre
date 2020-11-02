@@ -7,7 +7,6 @@
 }
 
 .theatre__title {
-    font-family: var(--openSans-light);
     color: white;
     letter-spacing: 0.1em;
     font-weight: 300;
@@ -42,3 +41,4 @@
     padding-left: 40px;
     box-sizing: border-box;
 }
+

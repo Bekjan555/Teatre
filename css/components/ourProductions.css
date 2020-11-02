@@ -1,0 +1,42 @@
+.gallery {
+    max-width: 1770px;
+    justify-content: flex-start;
+}
+
+.list__item:hover {
+
+}
+
+.list__item {
+    position: relative;
+    transition: 0.3s;
+}
+
+.list__item::before {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url(/img/search.svg) no-repeat center;
+    background-color: var(--gold);
+    top: 225px;
+    left: 171px;
+    cursor: pointer;
+    display: none;
+    transition: 0.3s;
+}
+
+
+.list__item:hover::before {
+    display: inline;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
