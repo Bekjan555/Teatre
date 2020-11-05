@@ -8,7 +8,12 @@
     font-size: 16px;
 }
 
-
+.left__form {
+    max-width: 420px;
+    justify-content: space-evenly;
+    height: 100px;
+    align-content: space-between;
+}
 
 .form__items {
     padding: 0 15px;
@@ -18,8 +23,26 @@
     border: 2px solid #565656;
     outline: none;
     font-family: var(--sans-regular);
+    box-sizing: border-box;
+}
+
+.ol {
+    width: 310px;
+    height: 100px;
+    padding: 0 15px;
+    background: #444444;
+    border: 2px solid #565656;
+    outline: none;
+    box-sizing: border-box;
 }
 
 .form__items:placeholder {
     color: #989898;
+}
+
+.form__description {
+    color: #989898;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: var(--sans-regular);
 }
