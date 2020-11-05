@@ -1,0 +1,25 @@
+.footer__content {
+    justify-content: space-between;
+}
+
+.footer__items {
+    padding-top: 25px;
+    font-family: var(--openSans-bold);
+    font-size: 16px;
+}
+
+
+
+.form__items {
+    padding: 0 15px;
+    width: 180px;
+    height: 35px;
+    background: #444444;
+    border: 2px solid #565656;
+    outline: none;
+    font-family: var(--sans-regular);
+}
+
+.form__items:placeholder {
+    color: #989898;
+}
