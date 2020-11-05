@@ -2,10 +2,12 @@
     max-width: 1110px;
     margin: 0 auto;
 }
+
 .row{
     display: flex;
     flex-wrap: wrap;
 }
+
 .flex {
     display: flex;
 }
@@ -22,6 +24,8 @@
     font-size: 48px;
     font-family: var(--openSans-light);
     text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.1em;
 }
 
 .uppercase {
