@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 </head>
-
 <body>
     <div class="bg">
         <section class="header">
@@ -157,7 +156,7 @@
                 </div>
             </div>
         </section>
-        <section class="our__productions margin-top text-center">
+        <!-- <section class="our__productions margin-top text-center">
             <div class="container">
                 <h2 class="title uppercase">
                     <span class="text-gold">
@@ -198,7 +197,7 @@
                     </ul>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section class="achievements">
             <div class="container">
                 <div class="achievements__content margin-top flex">
@@ -299,10 +298,14 @@
                     </div>
                     <form class="footer__form flex row" action="">
                         <div class="left__form row">
-                            <input type="text" class="name form__items" placeholder="Имя">
-                            <input type="text" class="company form__items" placeholder="Компания">
-                            <input type="text" class="number form__items" placeholder="Номер">
-                            <input type="text" class="E-mail form__items" placeholder="E-mail">
+                            <label for="name"></label>
+                            <label for="company"></label>
+                            <label for="number"></label>
+                            <label for="E-mail"></label>
+                            <input id="name" type="text" class="name form__items" placeholder="Имя">
+                            <input id="company" type="text" class="company form__items" placeholder="Компания">
+                            <input id="number" type="text" class="number form__items" placeholder="Номер">
+                            <input id="E-mail" type="text" class="E-mail form__items" placeholder="E-mail">
                         </div>
                         <input type="text" class="ol" placeholder="Сообщение">
                     </form>
