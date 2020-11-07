@@ -1,5 +1,5 @@
 .footer__content {
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .footer__items {
@@ -33,6 +33,7 @@
     border: 2px solid #565656;
     outline: none;
     box-sizing: border-box;
+    text-overflow: clip;
 }
 
 .form__items:placeholder {
@@ -52,5 +53,17 @@
     line-height: 18px;
     letter-spacing: 0em;
     color: #989898;
+
+}
+.button__wrapper {
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+.footer__button {
+    padding: 5px 43.5px;
+    outline: none;
+    border-color: var(--gold);
+    color: white;
 }
 
