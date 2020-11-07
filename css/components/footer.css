@@ -1,5 +1,5 @@
 .footer__content {
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .footer__items {
@@ -10,8 +10,7 @@
 
 .left__form {
     max-width: 420px;
-    justify-content: space-evenly;
-    height: 100px;
+    justify-content: space-around;
     align-content: space-between;
 }
 
@@ -46,3 +45,4 @@
     line-height: 18px;
     font-family: var(--sans-regular);
 }
+
