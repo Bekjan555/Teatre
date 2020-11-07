@@ -46,3 +46,11 @@
     font-family: var(--sans-regular);
 }
 
+.footer__description {
+    font-family: var(--sans-regular);
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #989898;
+}
+
