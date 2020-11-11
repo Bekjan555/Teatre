@@ -53,7 +53,6 @@
     line-height: 18px;
     letter-spacing: 0em;
     color: #989898;
-
 }
 .button__wrapper {
     justify-content: flex-end;
@@ -67,3 +66,20 @@
     color: white;
 }
 
+.footer__bottom {
+    margin-top: 80px;
+    justify-content: space-between;
+    height: 78px;
+    align-items: center;
+    border-top: 1px solid #565656;
+}
+
+.footer__bottom__link {
+    font-family: var(--sans-regular);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #989898;
+}
