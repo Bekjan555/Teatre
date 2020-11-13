@@ -1,15 +1,15 @@
 .nav__menu {
     margin-top: 50px;
-}
-
-.nav__menu:nth-child(6){
-    margin: 0;
-    background-color: green;
+    width: 100%;
 }
 
 .nav__item {
     margin-right: 63px;
     position: relative;
+}
+
+.nav__item:last-child {
+    margin-left: auto;
 }
 /* 
 .nav__menu:nth-last-child(none) {

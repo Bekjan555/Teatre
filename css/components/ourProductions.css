@@ -3,8 +3,8 @@
     justify-content: flex-start;
 }
 
-.list__item:hover {
-
+.list__text {
+    position: absolute;
 }
 
 .list__item {
@@ -43,7 +43,7 @@
     font-weight: 700;
     letter-spacing: 3px;
     left: 40px;
-    top: 40px;
+    top: -550px;
 }
 
 .text__bot {
@@ -55,4 +55,12 @@
     bottom: 40px;
 }
 
+.text__bot,
+.text__top {
+    position: absolute;
+}
 
+.slider__img {
+    z-index: -1;
+    display: inline;
+}
