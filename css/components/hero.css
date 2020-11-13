@@ -100,33 +100,49 @@
 }
 
 .box__img {
-    z-index: 2;
+    position: relative;
 }
 
 .box__img2 {
     position: absolute;
     right: -20px;
-    bottom: 20px;
+    bottom: 40px;
     z-index: -1;
 }
 
 /* BUTTON */
 
-.slider__button {
+.hero__buttons {
     justify-content: space-around;
+    margin-top: 30px;
 }
 
 .button__prev,
 .button__next {
-    background: black;
+    background:transparent;
     outline: none;
+    border: none;
+    position: relative;
 }
 
-.prev,
+.prev ,
 .next {
-    position: relative;
     font-size: 18px;
     font-family: var(--openSans-bold);
-    color: white;
+    color: #C4C4C4;
 }
 
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.arrow__next {
+    right: -50px;
+}
+
+.arrow__prev {
+    left: -40px;
+    transform: rotate(180deg) translate(0, 40%);
+}
